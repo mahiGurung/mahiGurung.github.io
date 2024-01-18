@@ -311,7 +311,8 @@ body {
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 40%;
+    top: 40px;
   }
 }
 
@@ -339,7 +340,7 @@ body {
 
   .six .hat {
     width: 50px;
-    top: -20px;
+    top: 35px;
   }
 
   .wish-hbd {
@@ -353,5 +354,12 @@ body {
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
+  }
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .start-button {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
   }
 }
