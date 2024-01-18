@@ -13,7 +13,7 @@ const animationTimeline = () => {
       var audio1 = document.getElementById("backgroundMusic1");
       audio1.pause();
       audio2.play();
-    }, 75000); // Adjust the delay in milliseconds (e.g., 5000 for 5 seconds)
+    }, 71000); // Adjust the delay in milliseconds (e.g., 5000 for 5 seconds)
   }
 
   playBackgroundMusic1();
@@ -341,7 +341,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-
-
-
-
